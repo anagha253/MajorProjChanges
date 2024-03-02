@@ -2,8 +2,12 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
+    background-color: #93d082;
   }
   
+  h1,h2{
+    color: rgb(4, 79, 35);
+  }
   .canvas-container {
     display: flex;
     justify-content: center;
@@ -23,6 +27,9 @@ body {
     margin: 10px;
     padding: 8px 16px;
     font-size: 16px;
+    border-radius: 5px;
+    color: rgb(243, 243, 173);
+    background-color: #134704;
   }
   
   .prediction-result {

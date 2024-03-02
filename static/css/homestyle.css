@@ -1,18 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #9ccef0;
 }
 
 header {
-    background-color: #ddd;
+    background-color: #448de1;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #333;
+    background-color: #033363;
     color: white;
     padding: 10px;
     text-align: center;
@@ -33,13 +33,14 @@ h1 {
   }
   
   p {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.5;
+    color: #030753;
   }
   
   a {
-    background-color: #000;
-    color: white;
+    background-color: #030753;
+    color: rgb(164, 207, 231);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
