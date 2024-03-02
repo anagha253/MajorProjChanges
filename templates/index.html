@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kannada Digit Recognizer</title>
+  <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+  
+  <h1>Kannada Digit Recognizer</h1>
+  <div class="canvas-container">
+    <div class="canvas-wrapper">
+      <h2>Digit 1</h2>
+      <canvas id="drawingCanvas1" width="500" height="500" class="canvas"></canvas>
+      <div>
+        <button onclick="predictDigit1()">Predict</button>
+        <button onclick="clearCanvas1()">Clear</button>
+      </div>
+      <div id="predictionResult1"></div>
+    </div>
+    <div class="canvas-wrapper">
+      <h2>Digit 2</h2>
+      <canvas id="drawingCanvas2" width="500" height="500" class="canvas"></canvas>
+      <div>
+        <button onclick="predictDigit2()">Predict</button>
+        <button onclick="clearCanvas2()">Clear</button>
+      </div>
+      <div id="predictionResult2"></div>
+    </div>
+  </div>
+  <script src="static\js\script.js"></script>
+</body>
+</html>
